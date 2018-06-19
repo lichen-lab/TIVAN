@@ -76,10 +76,9 @@ biocLite("GenomicRanges")
 ## An example to obtain score for a list of eQTL SNVs from Adipose_Subcutaneous
 
 Adipose_Subcutaneous.eQTL.rda could be downloaded from [Here](https://drive.google.com/open?id=1S0jgTGOK-8DCPsiRJ1fLHpDdSXpYCvbi)
-
 Adipose_Subcutaneous.score.rda could be downloaded [Here](https://drive.google.com/open?id=1RyBG4KtqAL0QH_odM0UtbpHZBGLv5bxr)
-
 hg19.SNVs.rda could be downloaded [Here](https://drive.google.com/open?id=1GWqDb_Sxq1FMPdFTwKoql5Vfsl4UjIKO)
+getscore.R could be downloaded [Here](https://github.com/lichen-lab/TIVAN/blob/master/getscore.R)
 
 ```r
 # hg19.SNVs.rda contains an object hg19.SNVs, which SNVs for hg19
