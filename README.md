@@ -2,7 +2,7 @@
 Tissue-specific cis-eQTL single nucleotide variant Annotation and prediction
 
 ## Author
-Li Chen
+Li Chen, Bing Yao, Amit Mitra
 
 ## Maintainer
 Li Chen <li.chen@auburn.edu>
@@ -65,7 +65,7 @@ Here, we present TIVAN (TIssue-specific Variant Annotation and prediction) to pr
 
 
 ## System requirement
-To successfully run the examples in the tutorial, we strongly recommend at least 4GB memory is required for the PC/laptop/Work station. All the examples in the tutorial have been successfully performed on a MacBook laptop with a 1.7 GHz processor and 8 GB memory.
+To successfully run the example below, we strongly recommend at least 4GB memory for the PC/laptop/Work station. The example has been successfully performed on a MacBook laptop with a 1.7 GHz processor and 8 GB memory.
 
 ## Installation, GenomicRanges R Bioconductor package
 ```r
