@@ -2,7 +2,7 @@
 Tissue-specific cis-eQTL single nucleotide variant Annotation and prediction
 
 ## Author
-Li Chen, Bing Yao, Amit Mitra
+Li Chen
 
 ## Maintainer
 Li Chen <li.chen@auburn.edu>
