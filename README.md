@@ -1,6 +1,9 @@
 # TIVAN
 Tissue-specific cis-eQTL single nucleotide variant Annotation and prediction
 
+## Cite
+Chen L, Wang Y, Yao B, Mitra A, Wang X, Qin X (2018). TIVAN: Tissue-specific cis-eQTL single nucleotide variant annotation and prediction. Bioinformatics, bty872
+
 ## Author
 Li Chen
 
