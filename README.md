@@ -62,7 +62,7 @@ Here, we present TIVAN (TIssue-specific Variant Annotation and prediction) to pr
 |Vagina                                |Vagina        |    28397|
 |Whole_Blood                           |Blood         |   256421|
 
-## Download hg19 SNVs and pre-computed scores of 44 tissues for hg19 SNVs 
+## Download hg19 SNVs, all cis-eQTLs in the training set and pre-computed scores of 44 tissues for hg19 SNVs 
 
 [Download Here](https://drive.google.com/open?id=1MTnSKb_HDrMrNAqDsVBMORj5ZO3espga)
 
@@ -89,14 +89,14 @@ getscore.R could be downloaded [Here](https://github.com/lichen-lab/TIVAN/blob/m
 ```r
 # hg19.SNVs.rda contains an object hg19.SNVs, which SNVs for hg19
 # Adipose_Subcutaneous.score.rda contains an object score, which is pre-computed scores for hg19 SNVs in Adipose_Subcutaneous
-# Adipose_Subcutaneous.eQTL.rda contains an object eQTLs, which are eQTL SNVs for Adipose_Subcutaneous
+# Adipose_Subcutaneous.eQTL.rda contains an object snp1, which are eQTL SNVs for Adipose_Subcutaneous
 
 library("GenomicRanges")
 load('hg19.SNVs.rda')
 load('Adipose_Subcutaneous.score.rda')
 load('Adipose_Subcutaneous.eQTL.rda')
 source('getscore.R')
-eQTLs.score=getscore(eQTLs,hg19.SNVs,score)
+eQTLs.score=getscore(snp1,hg19.SNVs,score)
 head(eQTLs.score)
 ```
 
