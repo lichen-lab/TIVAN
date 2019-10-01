@@ -8,7 +8,7 @@ Chen L, Wang Y, Yao B, Mitra A, Wang X, Qin X (2018). TIVAN: Tissue-specific cis
 Li Chen
 
 ## Maintainer
-Li Chen <li.chen@auburn.edu>
+Li Chen <chen61@iu.edu>
 
 ## Description
 Here, we present TIVAN (TIssue-specific Variant Annotation and prediction) to predict cis-eQTL SNVs by considering tissue-specificity. TIVAN is trained based on a comprehensive collection of features including genome-wide genomic and epigenomic profiling data. TIVAN has been shown to accurately discriminate cis-eQTL SNVs from non-eQTL SNVs and perform favorably to other methods. This site provides the pre-computed scores for hg19 and software toolkit to obtain the scores for queried variants.
